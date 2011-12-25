@@ -7,7 +7,7 @@ filesystem.
     $ cd /usr/local
     $ git clone git://github.com/kapsiry/zfs-snapshot-helper.git
     (for each user, maybe from global bashrc?)
-    $ source /usr/local/snapshot.sh
+    $ source /usr/local/zfs-snapshot-helper/snapshot.sh
 
 ## Requirements ##
 
