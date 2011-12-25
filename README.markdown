@@ -3,6 +3,20 @@ a hidden .zfs/snapshot directory. This is difficult for users
 to find when there is no filesystem per user but a shared large
 filesystem.
 
+## Installation ##
+    $ cd /usr/local
+    $ git clone git://github.com/kapsiry/zfs-snapshot-helper.git
+    (for each user, maybe from global bashrc?)
+    $ source /usr/local/snapshot.sh
+
+## Requirements ##
+
+* zfs; the whole point depends on having snapshots in the first place
+* Recent python
+* bash4 (for associative arrays)
+
+## Usage ##
+
 The helper script works like this:
 
     # List snapshots for current directory and cd into #13
